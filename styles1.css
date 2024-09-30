@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+.encabezado {
+    background-image: url('imagenes/footer.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+.encabezado h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.lista {
+    text-align: center;
+}
+
+.lista ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.lista li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.lista li a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+
+
+.encabezado p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+
+.contenido-independiente {
+    width: 550px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #f9f9f9;
+}
+
+.contenido-independiente article {
+    margin: 15px 0;
+    padding: .3rem;
+    background-color: #eee;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+.seccion {
+    width: 550px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    margin: 20px auto;
+}
+
+.navegacion {
+    width: 550px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    padding: 15px;
+}
+
+.navegacion nav {
+    border-bottom: 1px solid black;
+}
+
+.navegacion .crumbs ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.navegacion .crumb {
+    display: inline-block;
+    padding-right: 5px;
+}
+
+
+.contenido-separado
+{
+    width: 550px; /* Ancho fijo */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Sombra */
+    margin: 20px auto; /* Centra el contenido */
+    padding: 15px; /* Espaciado interno */
+}
+
+.contenido-separado aside {
+    width: 40%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+}
+
+.contenido-separado p {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+
+.pie {
+    width: 550px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    padding: 15px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.pie footer {
+    font-size: 1rem;
+}
+
+
+.dominante {
+    width: 550px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #f9f9f9;
+}
+
+.dominante header {
+    font-size: 1.6rem;
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+.dominante main {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.dominante main p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}

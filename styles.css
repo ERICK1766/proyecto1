@@ -1,0 +1,149 @@
+/* Reset básico para remover márgenes y paddings predefinidos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales para el cuerpo del documento */
+body {
+    font-family: "Georgia", serif;  /* Fuente clásica serif */
+    background-color: #f4f4f4;      /* Color de fondo suave */
+    color: #333;                    /* Color de texto */
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #4a4a4a;      /* Color de fondo oscuro para el encabezado */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #333;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Estilos para la navegación */
+nav {
+    background-color: #333;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #f4f4f4;
+}
+
+/* Estilos para la sección principal */
+main {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para los artículos */
+section {
+    width: 70%;
+}
+
+article {
+    margin-bottom: 30px;
+}
+
+article h2 {
+    font-size: 28px;
+    color: #4a4a4a;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+
+article p {
+    margin-bottom: 15px;
+}
+
+/* Estilos para los elementos de noticias y blog */
+.news-item, .blog-post {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+}
+
+.news-item h3, .blog-post h3 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+/* Estilos para el aside */
+aside {
+    width: 25%;
+    background-color: #eaeaea;
+    padding: 15px;
+    border-left: 4px solid #ddd;
+}
+
+aside h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+aside ul {
+    list-style: none;
+}
+
+aside ul li {
+    margin-bottom: 10px;
+}
+
+aside ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+aside ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #4a4a4a;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 14px;
+    border-top: 4px solid #333;
+}
